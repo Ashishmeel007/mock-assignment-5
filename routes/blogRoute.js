@@ -1,9 +1,9 @@
 const express = require('express');
 const blogRouter = express.Router();
 const { Blog } = require ("../models/blogs");
-const { auth } = require('../middleware/auth');
+// const { auth } = require('../middleware/auth');
 
-blogRouter.use(auth);
+// blogRouter.use(auth);
 
 // GET all blogs
 // Merged route for getting blogs
